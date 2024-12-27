@@ -1,0 +1,91 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+header{
+    text-align: center;
+    background-color: rgb(30, 165, 15);
+    padding: 3px 5px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    margin-top: 20px;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+.about-section{
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgb(62, 93,8);
+    border-radius: 8px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgb(255, 200, 0);
+}
+.projects-section{
+    padding: 50px 20px;
+
+}
+.projects-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 20px;
+    justify-content: center;
+}
+.project-card{
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px white;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+.project-card h3{
+    margin: auto;
+    color: darkgreen;
+    font-size: 1.2rem;
+}
+.contact-section{
+    padding: 50px 20px;
+    background-color: rgb(28, 109, 3);
+}
+.contact-section form input,
+.contact-section form textarea,
+.contact-section form button{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 1rem;
+}
+.contact-section form button{
+    background-color: rgb(205, 212, 4);
+    color: white;
+    border: none;
+}
+.contact-section form button:hover{
+    background-color: rgb(16, 172, 50);
+}
+footer{
+    background-color: black;
+    padding: 10px 0;
+}
